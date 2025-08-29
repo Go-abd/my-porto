@@ -1,0 +1,36 @@
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f0f2f5;
+     flex-direction: column;
+}
+        
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 5px solid white;
+}
+        
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    text-align: center;
+}
+
+.h3-kontak{
+    text-align: center;
+}
+
+.p-kontak{
+    text-align: center;
+}
